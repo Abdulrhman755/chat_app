@@ -59,4 +59,3 @@ class ChatBubbleForFriend extends StatelessWidget {
     );
   }
 }
-

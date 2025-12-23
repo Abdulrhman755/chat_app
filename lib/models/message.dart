@@ -6,6 +6,6 @@ class Message {
   Message(this.id, {required this.message});
 
   factory Message.fromJson(jsonData) {
-    return Message(jsonData['id'], message: jsonData[kMessage]);
+    return Message(jsonData['id'] ?? '', message: jsonData[kMessage] ?? '');
   }
 }

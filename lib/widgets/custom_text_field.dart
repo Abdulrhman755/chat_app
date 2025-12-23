@@ -14,7 +14,6 @@ class CustomFormTextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return TextFormField(
       obscureText: obscureText,
       validator: (data) {
